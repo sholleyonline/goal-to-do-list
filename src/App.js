@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './pages/Home';
+import {Doroute} from './routers/Doroute';
 
 function App() {
   return (
-    <div className='main'>
-      <h1>Goal ToDo List Project</h1>
-    </div>
+    <Doroute/>
   );
 }
 

@@ -1,0 +1,60 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .heroTxt{
+    font-size: 2.5rem;
+    
+  }
+
+  .buttonTxt{
+    color:"blue"
+  }
+
+  .listMain{
+    width: 80vw;
+    background-color: #ccc;
+  }
+  
+
+  .menuDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+  }
+
+  .listContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 7px 5px;
+    background-color: #fff;
+    padding: 0 10px;
+  }
+  .taskList{
+    display: flex;
+    flex-direction: row;
+    gap: 20;
+
+  }
+  .taskTitleDiv{
+    margin-left: 20px;
+  }
+  .listIconDiv{
+  }
+
+  .toolsDiv{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    right: 10px;
+  }
+
+ 
